@@ -38,7 +38,7 @@ for (let g = 0; g < groupCount; g++) {
 	const video = document.createElement("video");
 	video.crossOrigin = "anonymous";
 	video.src =
-		" https://raw.githubusercontent.com/polchik020805/20.03/main/Particles.webm";
+		"https://raw.githubusercontent.com/polchik020805/20.03/main/5e67d02a0164aac690e9b7570dafacd2-Picsart-BackgroundRemover.webm";
 	video.loop = true;
 	video.muted = true;
 	video.playbackRate = 0.010 + Math.random() * 1.0;
@@ -90,7 +90,7 @@ for (let g = 0; g < groupCount; g++) {
 }
 const hdrLoader = new HDRLoader();
 const hdrTexture = hdrLoader.load(
-	"https://raw.githubusercontent.com/polchik020805/20.03/refs/heads/main/st_peters_square_night_2k.hdr",
+	"https://raw.githubusercontent.com/polchik020805/20.03/refs/heads/main/little_paris_eiffel_tower_1k.hdr",
 	() => {
 		hdrTexture.mapping = THREE.EquirectangularReflectionMapping;
 		hdrTexture.colorSpace = THREE.SRGBColorSpace;
